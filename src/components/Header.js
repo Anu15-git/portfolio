@@ -7,6 +7,11 @@ function Header() {
       <div className="hero-left">
         <span className="intro">Hello,</span>
 
+        <h1>
+          I’m <span className="highlight">Anu</span> <br />
+          Frontend Developer
+        </h1>
+
         <p className="hero-desc">
           I build modern, responsive, and user-friendly web applications using
           React, Vue, and Nuxt.js.
@@ -30,6 +35,7 @@ function Header() {
             </a>
           </div>
 
+          {/* ROUTING FIX ONLY */}
           <Link to="/contact" className="primary-btn">
             Hire Me
           </Link>
