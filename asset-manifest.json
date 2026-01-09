@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.68b3b9b3.css",
-    "main.js": "/portfolio/static/js/main.165af7d2.js",
+    "main.js": "/portfolio/static/js/main.726b1a46.js",
     "static/media/anu-photo.jpeg": "/portfolio/static/media/anu-photo.834f3d866f8f9e773b7a.jpeg",
     "static/media/vector-illustration-programmer-flat-design-style_844724-3931.avif": "/portfolio/static/media/vector-illustration-programmer-flat-design-style_844724-3931.4ce43bdb772a4b493104.avif",
     "index.html": "/portfolio/index.html",
     "main.68b3b9b3.css.map": "/portfolio/static/css/main.68b3b9b3.css.map",
-    "main.165af7d2.js.map": "/portfolio/static/js/main.165af7d2.js.map"
+    "main.726b1a46.js.map": "/portfolio/static/js/main.726b1a46.js.map"
   },
   "entrypoints": [
     "static/css/main.68b3b9b3.css",
-    "static/js/main.165af7d2.js"
+    "static/js/main.726b1a46.js"
   ]
 }
