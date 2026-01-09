@@ -26,7 +26,7 @@ function Header() {
             </a>
           </div>
 
-          <a href="/contact" className="primary-btn">
+          <a href="/portfolio/contact" className="primary-btn">
             Hire Me
           </a>
         </div>
