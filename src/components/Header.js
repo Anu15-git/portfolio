@@ -1,15 +1,11 @@
 import profile from "../assets/anu-photo.jpeg";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <section className="hero hero-alt">
       <div className="hero-left">
         <span className="intro">Hello,</span>
-
-        <h1>
-          I’m <span className="highlight">Anu</span> <br />
-          Frontend Developer
-        </h1>
 
         <p className="hero-desc">
           I build modern, responsive, and user-friendly web applications using
@@ -18,21 +14,26 @@ function Header() {
 
         <div className="hero-actions">
           <div className="socials">
-            <a href="https://github.com/Anu15-git" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Anu15-git"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/anu-j-chandran-155415209" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/anu-j-chandran-155415209"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
           </div>
 
-          <a href="/portfolio/contact" className="primary-btn">
+          <Link to="/contact" className="primary-btn">
             Hire Me
-          </a>
+          </Link>
         </div>
-
-
-
       </div>
 
       <div className="hero-right">
